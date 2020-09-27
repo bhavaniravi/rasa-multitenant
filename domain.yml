@@ -1,0 +1,15 @@
+intents:
+  - get_price
+  - get_product
+  
+actions:
+  - action_get_price
+  - action_get_product
+
+entities:
+  - product
+  - company
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
